@@ -1,0 +1,75 @@
+Domains / DNS records for Madeinamerica-cleaning.com
+Warning: Modifying DNS records incorrectly can cause your website to be unreachable for a long time. Restoring the settings to default may not take effect immediately. Only change these settings if you're confident in your actions. Note that name servers (NS records) cannot be changed. If you'd like to do this, we recommend transferring the domain name. Reach out to our support team with any questions you have.
+
+Would you like to set up Google Workspace or Microsoft 365?
+
+Type	Name	Value	Priority	TTL	
+CNAME	sparkpost._domainkey	sparkpost._domainkey.webador.com		1 hour	
+CNAME	jouwweb._domainkey	website-rendering._domainkey.jouwweb.nl		1 hour	
+
+TXT
+mandrill._domainkey
+v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSRMAocV/hMB3jXwaHH36d9NaVynQFYV8NaWi69c1veUtRzGt7yAioXqLj7Z4TeEUoOLgrKsn8YnckGs9i3B3tVFB+Ch/4mPhXWiNfNdynHWBcPcbJ8kjEQ2U8y78dHZj1YeRXXVvWob2OaKynO8/lQIDAQAB;
+
+1 hour
+
+
+CNAME
+autodiscover
+block.mail.webador.com
+
+1 hour
+
+
+SRV
+_autodiscover._tcp
+0 443 autoconfig.mail.webador.com
+0
+
+1 hour
+
+
+CNAME
+mail
+mail.webador.com
+
+1 hour
+
+
+CNAME
+autoconfig
+autoconfig.mail.webador.com
+
+1 hour
+
+
+TXT
+_dmarc
+v=DMARC1; p=none
+
+1 hour
+
+
+CNAME
+*
+website-rendering.webador.com
+
+1 hour
+
+
+TXT
+v=spf1 include:_spf.webador.com ~all
+
+1 hour
+The record above is the SPF record. You can add extra include markers to this as long as you keep "include:_spf.webador.com".
+
+
+MX
+mail.webador.com
+0
+
+1 hour
+
+
+A
+35.204.150.5

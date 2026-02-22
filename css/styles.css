@@ -13,6 +13,10 @@ body{font-family:Segoe UI,Arial,Helvetica,sans-serif;line-height:1.5;color:#222;
 .brand-row{display:flex;align-items:center;gap:12px}
 .brand{margin:0;font-size:1.4rem;color:var(--accent)}
 .logo{height:64px;width:auto;display:block}
+
+/* Full-width hero image underneath the header */
+.hero{width:100%;overflow:hidden}
+.hero-image{width:100%;height:auto;display:block;object-fit:cover}
 nav a{margin-left:14px;color:#333;text-decoration:none;font-weight:600}
 main h2{color:var(--accent)}
 .cta .phone, .phone{display:inline-block;background:var(--accent);color:#fff;padding:8px 12px;border-radius:4px;text-decoration:none}
